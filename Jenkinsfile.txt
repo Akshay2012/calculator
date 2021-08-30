@@ -6,7 +6,7 @@ pipeline{
         nodejs 'nodejs'
     }
     stages{
-            stage("Initialie"){
+            stage("Initialize"){
                 steps{
                     sh '''
                         echo "-------executing initialization stage-------"
